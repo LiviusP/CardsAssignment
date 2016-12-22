@@ -1,0 +1,10 @@
+<div class="thumbnail">
+    <img ng-src='{{detailCtrl.cardInfo.picture}}'>
+    <div class="caption">
+        <h4>{{detailCtrl.cardInfo.title}}</h4>
+        <p>{{detailCtrl.cardInfo.details}}</p>
+        <a ui-sref="cards.list" class="btn btn-default btn-block" role="button">{{'BACK' | translate}}</a>
+        <span  class="btn btn-danger btn-block" role="button" ng-click="detailCtrl.delete(detailCtrl.cardInfo)">{{'DELETE' | translate}}</span>
+
+    </div>
+</div>

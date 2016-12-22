@@ -1,0 +1,9 @@
+<div class="alert alert-danger" ng-if='listCtrl.error'>
+  There was an <strong>ERROR</strong> loading your cards.
+</div>
+
+<div class="alert alert-info" ng-if='listCtrl.cards.length == 0'>
+  <strong>Sorry!</strong> There are no cards for you at this point.
+</div>
+
+		<custom-card ng-repeat='card in listCtrl.cards' info=card on-delete=listCtrl.delete(card)></custom-card>
