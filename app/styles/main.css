@@ -80,4 +80,18 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown-menu {
+    display: block;
+    position: relative;
+    float: none;
+  }
+
+  .dropdown-toggle {
+    margin-left: 2px
+  }
 }

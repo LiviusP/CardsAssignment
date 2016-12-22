@@ -14,12 +14,36 @@
 	{
 		"id": "03",
 		"title": "Third card",
-		"picture": "/images/yeoman.png",
+		"picture": "/images/angular.png",
 		"details": "Some details about the third card"
 	},
 	{
 		"id": "04",
 		"title": "Forth card",
+		"picture": "/images/yeoman.png",
+		"details": "Some details about the forth card"
+	},
+	{
+		"id": "05",
+		"title": "Fifth card",
+		"picture": "/images/angular.png",
+		"details": "Some details about the first card"
+	},
+	{
+		"id": "06",
+		"title": "Another card",
+		"picture": "/images/yeoman.png",
+		"details": "Some details about the second card"
+	},
+	{
+		"id": "07",
+		"title": "Yet another card",
+		"picture": "/images/yeoman.png",
+		"details": "Some details about the third card"
+	},
+	{
+		"id": "08",
+		"title": "Some card",
 		"picture": "/images/yeoman.png",
 		"details": "Some details about the forth card"
 	}
